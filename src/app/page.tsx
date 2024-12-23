@@ -58,6 +58,7 @@ export default function HomePage() {
           <Image
             src={productimage}
             alt="Product Image"
+            priority
             className="w-full h-auto object-contain"
           />
         </div>
@@ -70,6 +71,7 @@ export default function HomePage() {
             key={index}
             src={brand}
             alt={`brand-logo-${index}`}
+            priority
             className="w-16 sm:w-20 md:w-24 h-auto object-contain"
           />
         ))}
