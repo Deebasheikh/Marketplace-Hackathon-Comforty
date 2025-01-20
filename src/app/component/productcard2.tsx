@@ -1,11 +1,5 @@
 import Image from "next/image";
-import { StaticImageData } from "next/image";
-
-interface PCardProps {
-  image: string | StaticImageData; // Allow both types
-  name: string;
-  products: string;
-}
+import PCardProps from "@/types/pcardpropstwo";
 
 const ProductCard = (props: PCardProps) => {
   const { image, name, products } = props;
