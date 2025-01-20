@@ -47,7 +47,8 @@ const Cart = () => {
             <p>Total</p>
             <p className="font-medium">$198.00</p>
           </div>
-          <button className="rounded-[30px] px-5 py-3 text-white bg-[#029FAE] text-center mt-10">
+          <button className="rounded-[30px] px-16 py-3 text-white bg-[#029FAE]
+           text-center ml-5">
             Checkout
           </button>
         </div>
