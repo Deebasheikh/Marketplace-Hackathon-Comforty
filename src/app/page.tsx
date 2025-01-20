@@ -16,23 +16,12 @@ import card1 from "@/app/assets/card1.png";
 import card2 from "@/app/assets/card2.png";
 import card3 from "@/app/assets/card3.png";
 import card4 from "@/app/assets/card4.png";
-// import CartButton from "./component/cartbutton";
 import ProductCard from "./component/productcard2";
 import card5 from "@/app/assets/card5.png";
 import card6 from "@/app/assets/card6.png";
 import card7 from "@/app/assets/card7.png";
 import card8 from "@/app/assets/card8.png";
 import card9 from "@/app/assets/card9.png";
-
-
-interface PCardProps {
-  p?:string;
-  color?:string;
-  image: string;
-  name:string;
-  price:string;
-  product:string;
-}
 
 export default function HomePage() {
   return (
