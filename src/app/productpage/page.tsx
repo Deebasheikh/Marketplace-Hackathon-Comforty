@@ -10,15 +10,6 @@ import card8 from "@/app/assets/card8.png";
 import card9 from "@/app/assets/card9.png";
 import Image from "next/image";
 
-interface PCardProps {
-    p?:string;
-    color?:string;
-    image: string;
-    name:string;
-    price:string;
-    product:string;
-}
-
 const ProductPage = () => {
     return (
         <>
