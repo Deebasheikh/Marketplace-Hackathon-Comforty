@@ -1,18 +1,8 @@
 import Image from "next/image";
 import CartButton from "./cartbutton";
-import { StaticImageData } from "next/image";
+import ICard from "@/types/pcardprops";
 
-interface PCardProps {
-  p?: string;
-  color?: string;
-  image: string | StaticImageData; // Allow both types
-  name: string;
-  price: string;
-}
-
-
-
-const Card = (props: PCardProps) => {
+const Card = (props: ICard) => {
     const { p, color, image, name, price } = props;
     return (
       <div className="w-full max-w-sm  h-auto">
