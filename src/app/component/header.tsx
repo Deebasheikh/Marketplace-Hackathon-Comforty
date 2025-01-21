@@ -74,7 +74,7 @@ const Header = () => {
                     <Link href="/" className="py-2 sm:py-0 text-sm font-medium text-[#007580]">
                         Home
                     </Link>
-                    <Link href="/" className="py-2 sm:py-0 text-sm font-medium text-[#636270]">
+                    <Link href="/productpage" className="py-2 sm:py-0 text-sm font-medium text-[#636270]">
                         Shop
                     </Link>
                     <Link href="/productpage" className="py-2 sm:py-0 text-sm font-medium text-[#636270]">
@@ -88,7 +88,8 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="mt-4 sm:mt-0 flex items-center gap-2">
-                    <p className="text-sm text-[#636270] font-medium">Contact:</p>
+                    <Link href="/contactus"
+                    className="text-sm text-[#636270] font-medium">Contact:</Link>
                     <p className="text-sm text-[#272343] font-medium">(808) 555-0111</p>
                 </div>
             </div>
