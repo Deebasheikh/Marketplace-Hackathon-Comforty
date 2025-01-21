@@ -32,7 +32,7 @@ const Header = () => {
                             <RiArrowDropDownLine />
                         </button>
                     </div>
-                    <p>Faqs</p>
+                    <Link href="/faq">Faqs</Link>
                     <div className="flex items-center gap-1">
                         <button type="button" className="text-white">
                             <CiCircleAlert />
