@@ -22,6 +22,8 @@ import card6 from "@/app/assets/card6.png";
 import card7 from "@/app/assets/card7.png";
 import card8 from "@/app/assets/card8.png";
 import card9 from "@/app/assets/card9.png";
+import Link from "next/link";
+
 
 export default function HomePage() {
   return (
