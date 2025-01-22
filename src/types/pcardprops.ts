@@ -7,5 +7,6 @@ export default interface ICard {
     name: string;
     price: string;
     showCartButton?: boolean; // New prop to control CartButton visibility
+    href?: string;
   }
   
