@@ -98,11 +98,17 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full bg-gray-200 py-4 text-center text-sm">
+      <div className="flex justify-around bg-[#FFFFFF]  items-center">
+      <div className="py-4  text-sm">
         <p>
           © 2021 Blogy - Designed & Developed by{" "}
           <span className="text-blue-600 font-semibold">Zakirsoft</span>
         </p>
+      </div>
+      <div>
+        <Image src={Group13} alt="cards"
+        className="text-[#FFFFFF] opacity-50" />
+      </div>
       </div>
     </footer>
   );
