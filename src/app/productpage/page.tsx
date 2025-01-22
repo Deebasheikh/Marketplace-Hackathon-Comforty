@@ -21,7 +21,7 @@ const ProductPage = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 px-1
            lg:gap-10 mt-6">
             <Card image={card1} color="bg-[#01AD5A]" p="New" name="Library Stool Chair" price="$20" />
-            <Card image={card2} color="bg-[#F5813F]" p="Sales" name="Library Stool Chair" price="$20" />
+            <Card image={card2} color="bg-[#F5813F]" p="Sales" name="Library Stool Chair" price="$20"  href="/singleproductpage" /> />
             <Card image={card3} name="Library Stool Chair" price="$20" />
             <Card image={card4} name="Library Stool Chair" price="$20" />
             <Card image={card6} color="bg-[#01AD5A]" p="New" name="Library Stool Chair" price="$20" />
