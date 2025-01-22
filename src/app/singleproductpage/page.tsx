@@ -66,4 +66,4 @@ const SingleProductPage = () => {
 };
 
 export default SingleProductPage;
-vv
+
