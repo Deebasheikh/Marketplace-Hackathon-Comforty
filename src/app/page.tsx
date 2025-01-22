@@ -40,13 +40,13 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-5xl font-bold leading-snug text-[#272343] mt-4">
             Best Furniture Collection for your interior.
           </h1>
-          <button
-            type="button"
-            className="mt-6 flex items-center gap-3 px-6 py-3 bg-[#029FAE] text-white rounded-lg hover:bg-[#007580]"
-          >
-            <Link href="/productpage">Shop Now</Link>
-            <FaArrowRightLong className="w-5 h-5" />
-          </button>
+         <Link href="/productpage" passHref>
+  <button className="mt-6 flex items-center gap-3 px-6 py-3 bg-[#029FAE] text-white rounded-lg hover:bg-[#007580]">
+    Shop Now
+    <FaArrowRightLong className="w-5 h-5" />
+  </button>
+</Link>
+
         </div>
 
         {/* Image Section */}
