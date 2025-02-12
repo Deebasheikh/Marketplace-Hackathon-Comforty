@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 const CartButton = () => {
   const router = useRouter();
-
+  // addToCart(product); // Add product to cart
   const handleCartClick = () => {
     router.push('/cart'); // Navigate to the cart page
   };

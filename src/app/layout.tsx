@@ -1,4 +1,12 @@
 import type { Metadata } from "next";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs';
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./component/header";
@@ -26,14 +34,31 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+           <header className=" items-center text-[#ffffff] bg-[#272343] p-4 gap-4 h-">
+           <div className="flex justify-between">
+           <SignedOut>
+              <SignInButton />
+              <SignUpButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+            </div>
+            <div>
+            <Header />
+            </div>
+
+          </header>
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
     </html>
+    </ClerkProvider>
   );
 }
